@@ -9,8 +9,6 @@ import java.security.Principal;
 import javax.security.auth.Subject;
 import javax.security.auth.login.*;
 
-import ExamplePackage.RootAction; 
-
 
 /* 
  * This class demonstrates 
@@ -30,7 +28,7 @@ public class LoginContentExample {
 		
     static LoginContext lc; 	
 	
-    public static void main(String[] args) {
+    public void ExampleCode() {
 
 		LoginContentExample lce = new LoginContentExample();
 		
