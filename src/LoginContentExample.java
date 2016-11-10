@@ -1,4 +1,4 @@
-package ExamplePackage;
+
 import java.io.File;
 import java.io.FilePermission;
 import java.security.PrivilegedAction;

@@ -1,4 +1,4 @@
-package ExamplePackage;
+
 import java.io.File;
 import java.io.FilePermission;
 import java.security.PrivilegedAction;
@@ -12,11 +12,9 @@ import javax.security.auth.Subject;
  */
 
 public class RootAction {
-
-	
-		public void runAsRoot(Subject loggedUser) {
+	public void runAsRoot(Subject loggedUser) {
 			System.out.println("Running as root.");
-		}
+	}
 }
 
 permission javax.security.auth.AuthPermission "createLoginContext";
