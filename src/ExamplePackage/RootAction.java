@@ -17,20 +17,11 @@ public class RootAction {
 		public void runAsRoot(Subject loggedUser) {
 			System.out.println("Running as root.");
 		}
+
 }
 
-permission javax.security.auth.AuthPermission "createLoginContext";
-permission javax.security.auth.AuthPermission "createLoginContext.JAASExample";
-permission javax.security.auth.AuthPermission "modifyPrincipals";
-permission javax.security.auth.AuthPermission "getSubject";
-};
 
-	
-grant {
-permission java.io.FilePermission "example/*", "read";
-permission java.io.FilePermission "example/test1", "write";
-};
+		
 
-ExamplePackage.LoginModuleExample required debug =false; 
-};
+
 
