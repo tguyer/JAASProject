@@ -6,6 +6,10 @@ import java.util.Scanner;
 public class Controller {
 	
 	public void run(){
+		startUpSequence();
+	}
+	
+	public void writeToFile(){
 		System.out.print(" First Name, Id, Position, Name of supervisor (Id of supervisor), Salary:");
 	    Scanner scan = new Scanner(System.in);
 	    String text = scan.nextLine();
@@ -22,5 +26,9 @@ public class Controller {
 	        System.out.println("Error!");
 	    }
 	    scan.close();
+	}
+	
+	public void startUpSequence(){
+		System.out.println("Program started");
 	}
 }
